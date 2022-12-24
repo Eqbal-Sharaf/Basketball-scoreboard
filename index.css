@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #1B244A;
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.btn {
+    font-family: 'Cursed Timer ULiL';
+    padding: 5px;
+    background-color: #1B244A; 
+    color: #9AABD8;
+    border: 1px solid #9AABD8; 
+    border-radius: 5px;
+    margin: 2px;
+}
+.h3 {
+    margin: 0 0 8px 0;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.team-div {
+    width: 110px;
+    height: 70px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    background-color: black;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    border-radius: 5px;
+}
+.sub-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#team1, #team2 {
+    font-size: 50px;
+    margin: 10px auto 10px auto;
+}
